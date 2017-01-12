@@ -118,8 +118,7 @@ chains = make_chains(input_text)
 # Produce random text
 random_text = make_text(chains)
 
-print random_text
-
+api.PostUpdate(random_text)
 
 
 
